@@ -1,0 +1,19 @@
+# Editor files directory
+.idea
+
+# Dependency directory
+node_modules
+
+# Test coverage results
+coverage
+
+# Build directory
+build
+dist
+
+# Any log files
+*.log
+*.txt
+
+# related to npm > 5v.
+package-lock.json
