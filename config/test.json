@@ -1,0 +1,15 @@
+{
+  "app": {
+    "port": 3333,
+    "name": "Cache API Test"
+  },
+  "cache": {
+    "limit": 10,
+    "ttl": 60000,
+    "purgeInterval": 6000
+  },
+  "logging": {
+    "enabled": true,
+    "level": "error"
+  }
+}
