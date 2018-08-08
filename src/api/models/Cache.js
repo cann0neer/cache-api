@@ -6,7 +6,7 @@ const CacheSchema = new mongoose.Schema({
 	key    : {type: String, unique: true},
 	data   : {type: String, default: ''},
 	updated: {type: Date, default: Date.now()},
-});
+}, { collection: 'cache' });
 
 CacheSchema.pre('save', function (next) {
 	this.updated = new Date();
