@@ -7,9 +7,9 @@
     "uri": "mongodb://localhost:27017/api"
   },
   "cache": {
-    "limit": 10,
-    "ttl": 60000,
-    "purgeInterval": 6000
+    "limit": 100,
+    "ttl": 3600000,
+    "purgeInterval": 60000
   },
   "logging": {
     "enabled": true,
