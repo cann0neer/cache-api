@@ -4,7 +4,7 @@ RESTful API for caching data. Based on Express.js.
 
 ## Features
 * configurable TTL
-* configurable limit of entries numbers
+* configurable limit of entries number
 
 
 ## How To Install
