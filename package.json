@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple cache API with TTL and records limit",
   "engines": {
-    "node" : "^8.11.3"
+    "node": "^8.11.3"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -40,5 +40,16 @@
     "roots": [
       "test"
     ]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cann0neer/cache-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cann0neer/cache-api/issues"
+  },
+  "homepage": "https://github.com/cann0neer/cache-api#readme"
 }
